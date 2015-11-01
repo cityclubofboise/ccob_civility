@@ -3,3 +3,70 @@
 
 @import 'landing-page';
 @import 'font-awesome/font-awesome';
+
+$primary-blue:           #17C7D2;
+$primary-green:          #BBDC00;
+$primary-gray:           #808285;
+$secondary-orange:       #FF8135;
+$secondary-yellow:       #FFAF3E;
+$secondary-light-gray:   #AEADAF;
+
+$light-white:            #F8F8F8;
+$light-gray:             #EEEDEF;
+
+
+$clr-headline-text-shadow:  $primary-gray;
+
+.intro-header {
+  background: url(image_path('header.jpg')) no-repeat center center;
+}
+
+.intro-headline {
+  background: fade-out($primary-blue, 0.6);
+  padding: 1.5em;
+  border-radius: 1em/2em;
+  color: $light-white;
+
+  h1, h3 {
+    text-shadow: -1px 0 $clr-headline-text-shadow, 0 1px $clr-headline-text-shadow, 1px 0 $clr-headline-text-shadow, 0 -1px $clr-headline-text-shadow;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+}
+
+
+.btn-blue {
+  background-color: darken($primary-blue, 2%);
+  color: $light-white;
+  text-shadow: -1px 0 $secondary-light-gray, 0 1px $secondary-light-gray, 1px 0 $secondary-light-gray, 0 -1px $secondary-light-gray;
+  border-color:  darken($primary-blue, 5%);
+
+  &:hover {
+    background-color: $primary-blue;
+    color: $light-white;
+    border-color:  darken($primary-blue, 1%);
+  }
+}
+
+.network-name {
+  font-size: .9em;
+}
+
+
+/*
+.btn-blue {
+  background-color: $primary-green;
+  color: white;
+  border-color: fade-out($primary-green, 0.2);
+}
+
+.network-name {
+  font-size: .9em;
+}
+*/

@@ -8,14 +8,28 @@
           %li.footer-menu-divider
             &sdot;
           %li
-            = link_to 'About', '#about'
+            = link_to 'What', '#why'
           %li.footer-menu-divider
             &sdot;
           %li
-            = link_to 'Services', '#services'
+            = link_to 'Why', '#what'
           %li.footer-menu-divider
             &sdot;
           %li
-            = link_to 'Contact', '#contact'
+            = link_to 'Partners', '#partners'
+          %li.footer-menu-divider
+            &sdot;
+          %li
+            = link_to 'Connect', '#connect'
         %p.copyright.text-muted.small
-          Copyright &copy; Your Company 2015. All Rights Reserved
+          Copyright &copy; 2015, City Club of Boise. All Rights Reserved.
+          %br
+
+          %br
+          .text-muted.small
+            = link_to 'http://creativecommons.org/licenses/by-nc-sa/3.0/us/', rel: 'license' do
+              = image_tag 'https://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png', style: 'border-width: 0', alt: 'Creative Commons License'
+            &nbsp;
+            All images that are not logos are licensed under a
+            = succeed '.' do
+              = link_to 'Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License', 'http://creativecommons.org/licenses/by-nc-sa/3.0/us/', rel: 'license'

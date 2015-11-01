@@ -1,4 +1,4 @@
-%a{name: 'services'}
+%a{name: 'what'}
 .content-section-a
   .container
     .row
@@ -6,15 +6,16 @@
         %hr.section-heading-spacer
         .clearfix
         %h2.section-heading
-          Death to the Stock Photo:
+          Special forums
           %br
-          Special Thanks
+          and events
         %p.lead
-          A special thanks to
-          = link_to 'Death to the Stock Photo', 'http://join.deathtothestockphoto.com', target: '_blank'
-          for providing the photographs that you see in this template. Visit their website to become a member.
+          Throughout 2016, City Club of Boise will host forums focusing on civility in government, business settings, faith communities, health care, and media.
+          Special after-hours events and salons will give everyone an opportunity to see the challenges we all face in creating and fostering civil engagement throughout our lives.
       .col-lg-5.col-lg-offset-2.col-sm-6
-        = image_tag 'ipad.png', class: 'img-responsive', alt: ''
+        = image_tag 'what.jpg', class: 'img-responsive', alt: 'why'
+
+%a{name: 'why'}
 .content-section-b
   .container
     .row
@@ -22,16 +23,13 @@
         %hr.section-heading-spacer
         .clearfix
         %h2.section-heading
-          3D Device Mockups
-          %br
-          by PSDCovers
+          Why
         %p.lead
-          Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
-          = succeed '!' do
-            = link_to 'PSDCovers', 'http://www.psdcovers.com/', target: '_blank'
-          Visit their website to download some of their awesome, free photoshop actions!
+          Civility isn't merely being polite, it's a focus on assuring a vibrant and robust democracy.  Keeping discourse civil is most valuable when passions are most heated so that all viewpoints can be heard and considered.
       .col-lg-5.col-sm-pull-6.col-sm-6
-        = image_tag 'dog.png', class: 'img-responsive', alt: ''
+        = image_tag 'why.jpg', class: 'img-responsive', alt: ''
+
+%a{name: 'partners'}
 .content-section-a
   .container
     .row
@@ -39,41 +37,40 @@
         %hr.section-heading-spacer
         .clearfix
         %h2.section-heading
-          Google Web Fonts and
+          Partners in
           %br
-          Font Awesome Icons
+          Civility
         %p.lead
-          This template features the 'Lato' font, part of the
-          = succeed ',' do
-            = link_to 'Google Web Font library', 'http://www.google.com/fonts', target: '_blank'
-          as well as
-          = succeed '.' do
-            = link_to 'icons from Font Awesome', 'http://fontawesome.io', target: '_blank'
+          We thank and welcome our partners in
+          %br
+          the effort to keep Boise a great city!
       .col-lg-5.col-lg-offset-2.col-sm-6
-        = image_tag 'phones.png', class: 'img-responsive', alt: ''
+        .container
+          .row
+            .col-sm-6
+              = image_tag 'partners/ihc_sm.jpg', class: 'img-responsive', width: '200', alt: ''
 
 -#
-%a{name: 'contact'}
+%a{name: 'connect'}
 .banner
   .container
     .row
       .col-lg-6
-        %h2
-          Connect to Start Bootstrap:
-      .col-lg-6
+        = image_tag 'ccob_logo.png', class: 'img-responsive', width: '200', alt: 'City Club of Boise'
+      .col-lg-6{style: 'padding-top: 5%;'}
         %ul.list-inline.banner-social-buttons
           %li
-            = link_to 'https://twitter.com/SBootstrap', class: 'btn btn-default btn-lg' do
+            = link_to 'https://cityclubofboise.org', class: 'btn btn-default btn-lg', target: '_blank' do
+              %i.fa.fa-globe.fa-fw
+              %span.network-name
+                Website
+          %li
+            = link_to 'https://www.facebook.com/cityclubofboise', class: 'btn btn-default btn-lg', target: '_blank' do
+              %i.fa.fa-facebook-square.fa-fw
+              %span.network-name
+                Facebook
+          %li
+            = link_to 'https://www.twitter.com/cityclubofboise', class: 'btn btn-default btn-lg', target: '_blank' do
               %i.fa.fa-twitter.fa-fw
               %span.network-name
                 Twitter
-          %li
-            = link_to 'https://github.com/IronSummitMedia/startbootstrap', class: 'btn btn-default btn-lg' do
-              %i.fa.fa-github.fa-fw
-              %span.network-name
-                Github
-          %li
-            = link_to '#', class: 'btn btn-default btn-lg' do
-              %i.fa.fa-linkedin.fa-fw
-              %span.network-name
-                LinkedIn
