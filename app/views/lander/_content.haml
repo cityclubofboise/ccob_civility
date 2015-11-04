@@ -112,23 +112,28 @@
           the effort to keep Boise a great city!
       .col-lg-5.col-sm-pull-6.col-sm-6
         .row
-          .col-sm-6.partner-logo.ihc-logo
-            = image_tag 'partners/ihc_sm.jpg', class: 'img-responsive', width: '200', alt: 'partners'
-          .col-sm-6.partner-logo.rspr-logo
-            = image_tag 'partners/rspr001.png', class: 'img-responsive', width: '200', alt: 'partners'
+          = link_to 'http://www.idahohumanities.org/', target: '_blank' do
+            .col-sm-6.partner-logo.ihc-logo
+              = image_tag 'partners/ihc_sm.jpg', class: 'img-responsive', width: '200', alt: 'partners'
+          = link_to 'http://www.redskypr.com/', target: '_blank' do
+            .col-sm-6.partner-logo.rspr-logo
+              = image_tag 'partners/rspr001.png', class: 'img-responsive', width: '200', alt: 'partners'
         .row
-          .col-sm-6.partner-logo.pep-logo
-            = image_tag 'partners/pep001.png', class: 'img-responsive', width: '200', alt: 'partners'
-          .col-sm-6.partner-logo.nnu-logo
-            = image_tag 'partners/nnu001.png', class: 'img-responsive', width: '170', alt: 'partners'
+          = link_to 'http://www.peppershock.com/', target: '_blank' do
+            .col-sm-6.partner-logo.pep-logo
+              = image_tag 'partners/pep001.png', class: 'img-responsive', width: '200', alt: 'partners'
+          = link_to 'http://www.nnu.edu/', target: '_blank' do
+            .col-sm-6.partner-logo.nnu-logo
+              = image_tag 'partners/nnu001.png', class: 'img-responsive', width: '170', alt: 'partners'
 
 -#
 %a{name: 'connect'}
 .banner
   .container
     .row
-      .col-lg-6
-        = image_tag 'ccob_logo.png', class: 'img-responsive', width: '200', alt: 'City Club of Boise'
+      = link_to 'https://cityclubofboise.org', target: '_blank' do
+        .col-lg-6
+          = image_tag 'ccob_logo.png', class: 'img-responsive', width: '200', alt: 'City Club of Boise'
       .col-lg-6{style: 'padding-top: 5%;'}
         %ul.list-inline.banner-social-buttons
           %li
