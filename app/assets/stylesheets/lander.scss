@@ -40,6 +40,10 @@ $clr-headline-text-shadow:  $primary-gray;
   }
 }
 
+.img-margin{
+  margin-top: 3em;
+
+}
 
 .btn-blue {
   background-color: darken($primary-blue, 2%);
@@ -58,13 +62,20 @@ $clr-headline-text-shadow:  $primary-gray;
   font-size: .9em;
 }
 
-.schedule-Xdate {
-  text-align: left;
-  font-weight: 700;
-}
 .schedule-event {
   text-align: left;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.schedule-date {
+  text-align: left;
+  font-weight: 700;
+  font-size: 150%;
+}
+.schedule-descrip{
+  text-align: left;
+  font-size: 125%;
 }
 ul.schedule-descrip {
   margin-top: -1em;
