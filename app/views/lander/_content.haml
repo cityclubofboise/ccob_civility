@@ -3,12 +3,10 @@
   .container
     .row
       .col-lg-5.col-sm-6
-        %hr.section-heading-spacer
-        .clearfix
         %h2.section-heading
-          Promoting Civil Problem
-          %br
-          Solving in Idaho
+          Promoting Civil Problem Solving in Idaho
+        %hr.section-heading-spacer
+          .clearfix
         %p.lead
           During 2016, City Club is focusing much of its programming around the Civility Project, including at
           our traditional lunch forums, tours, and salons, as well as at our new After Hours events. Forums will
@@ -18,7 +16,7 @@
           Throughout the project, City Club intends to convene Civility Roundtables with university policy
           centers, community organizations, and other partners to identify cooperative program offerings,
           evaluate results and explore opportunities to sustain the momentum for a second year.
-      .col-lg-5.col-lg-offset-2.col-sm-6
+      .col-lg-5.col-lg-offset-2.col-sm-6.img-margin
         = image_tag 'what.jpg', class: 'img-responsive', alt: 'what'
 
 %a{name: 'why'}
@@ -26,10 +24,10 @@
   .container
     .row
       .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
-        %hr.section-heading-spacer
-        .clearfix
         %h2.section-heading
           Why
+        %hr.section-heading-spacer
+          .clearfix
         %p.lead
           We want Idaho and its cities
           to be national examples of communities that address
@@ -42,7 +40,7 @@
           listening to and incorporating dissenting voices so that
           everyone is heard, moving civility from an abstract
           notion to an expected code of conduct.
-      .col-lg-5.col-sm-pull-6.col-sm-6
+      .col-lg-5.col-sm-pull-6.col-sm-6.img-margin
         = image_tag 'why.jpg', class: 'img-responsive', alt: 'why'
 
 %a{name: 'events'}
@@ -50,50 +48,57 @@
   .container
     .row
       .col-lg-5.col-sm-6
-        %hr.section-heading-spacer
-        .clearfix
         %h2.section-heading
           Events
+        %hr.section-heading-spacer
+          .clearfix
         %p.lead
           .container
             .row
-              .col-lg-2.schedule-date
-                Nov. 4, 2015
+              .schedule-date
+                July 20<sup>th</sup>
               .schedule-event
-                City Club 20th Anniversary Celebration
+                Civility and Faith
+              .schedule-descrip
+                What do you do when your personal beliefs conflict with your church’s position?
+            %br
             .row
-              .col-lg-2.schedule-date
-                March 2016 (tentative)
+              .schedule-date
+                August 15<sup>th</sup>
               .schedule-event
-                Civility in Media
+                Civility in Public Office
+              .schedule-descrip
+                Featuring one of Idaho’s own longtime politicians
+            %br
             .row
-              .col-lg-2.schedule-date
-                Sept. 2016 (tentative)
+              .schedule-date
+                September, <i>date tbd</i>
               .schedule-event
                 Civility in the Courts
-        %p.lead
-          \...and more:
-        %ul.schedule-descrip
-          %li.schedule-descrip
-            an evening with a professor (or professorial panel) to discuss how society has defined and practiced
-            civility over time, including in highly polarized political climates, and how civil discourse enables us
-            to build bridges and advance areas of common ground.
-          %li.schedule-descrip
-            a tour to a neighborhood where residents decided to beautify an eyesore alley, and a Q&A on how
-            they collaborated to make it happen.
-          %li.schedule-descrip
-            an after-hours conversation about embracing dissent and how problem solving through community dialogue makes room for divergent voices.
-          %li.schedule-descrip
-            a visit to hear a Supreme Court argument, followed by a conversation with the justices about civility
-            and the courtroom.
-          %li.schedule-descrip
-            an after-hours session discussing the role of incivility -- when civil approaches don’t work, when should
-            populist movements consider civil disobedience?
+              .schedule-descrip
+                Decorum, ethics and more...
+            %br
+            .row
+              .schedule-date
+                October, <i>date tbd</i>
+              .schedule-event
+                Civility and the Election
+              .schedule-descrip
+                The 2016 Election
+            %br
+            .row
+              .schedule-date
+                November, <i>date tbd</i>
+              .schedule-event
+                Civility and Business
+              .schedule-descrip
+                Free Enterprise and Fairness
       .col-lg-5.col-lg-offset-2.col-sm-6
         .container
           .row
             .col-sm-6
-              = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
+              .img-margin
+                = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
 
 %a{name: 'partners'}
 .content-section-b
