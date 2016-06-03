@@ -62,6 +62,13 @@ $clr-headline-text-shadow:  $primary-gray;
   font-size: .9em;
 }
 
+.past{
+
+}
+
+.current{
+
+}
 .schedule-event {
   text-align: left;
   font-weight: 700;
@@ -70,18 +77,25 @@ $clr-headline-text-shadow:  $primary-gray;
 
 .schedule-date {
   text-align: left;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 150%;
 }
 .schedule-descrip{
   text-align: left;
+  font-weight: 500;
   font-size: 125%;
 }
+
 ul.schedule-descrip {
   margin-top: -1em;
 }
 li.schedule-descrip {
   font-weight: 500;
+}
+
+.past{
+  font-weight: 200;
+  font-style: italic;
 }
 
 .partner-logo {
