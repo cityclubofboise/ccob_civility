@@ -53,7 +53,7 @@
         %hr.section-heading-spacer
         .clearfix
         %p.lead
-          Listen to or watch past events here 
+          Upcoming events listed below 
           .container.col-lg-10.col-sm-12
             .row
               .schedule-date.past
@@ -61,8 +61,8 @@
               .schedule-event.past
                 Civility Over Time: An Overview
               .av-links.past
-                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160128CivilitySalon.mp3',  class: "btn btn-blue"
-                = link_to 'Video', 'http://video.idahoptv.org/video/2365703716/',  class: "btn btn-green"
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160128CivilitySalon.mp3', target: '_blank', class: "btn btn-blue"
+                = link_to 'Video', 'http://video.idahoptv.org/video/2365703716/', target: '_blank', class: "btn btn-green"
             %br
             .row
               .schedule-date.past
@@ -70,8 +70,8 @@
               .schedule-event.past
                 Civility in Our Schools: Civility Incubators?
               .av-links.past
-                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160308CivilityEd.mp3',  class: "btn btn-blue"
-                = link_to 'Video', 'http://video.idahoptv.org/video/2365704608/',  class: "btn btn-green"
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160308CivilityEd.mp3',   target: '_blank', class: "btn btn-blue"
+                = link_to 'Video', 'http://video.idahoptv.org/video/2365704608/', target: '_blank', class: "btn btn-green"
             %br
             .row
               .schedule-date.past
@@ -79,8 +79,8 @@
               .schedule-event.past
                 Civility on the Internet: When Social Media turns Antisocial
               .av-links.past
-                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160427CivilitySocialMedia.mp3',  class: "btn btn-blue"
-                = link_to 'Audio', 'http://video.idahoptv.org/video/2365731699',  class: "btn btn-green"
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160427CivilitySocialMedia.mp3', target: '_blank', class: "btn btn-blue"
+                = link_to 'Audio', 'http://video.idahoptv.org/video/2365731699', target: '_blank', class: "btn btn-green"
             %br
             .row
               .schedule-date.past
@@ -88,25 +88,25 @@
               .schedule-event.past
                 Civility on the Trail
               .av-links.past
-                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160516CivilityTrails.mp3',  class: "btn btn-blue"
-                = link_to 'Audio', 'http://video.idahoptv.org/video/2365757017/',  class: "btn btn-green"
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160516CivilityTrails.mp3', target: '_blank', class: "btn btn-blue"
+                = link_to 'Video', 'http://video.idahoptv.org/video/2365757017/', target: '_blank', class: "btn btn-green"
+            %br
+            .row
+              .schedule-date.past
+                July 20<sup>th</sup> - Wednesday
+              .schedule-event.past
+                Civility and Faith
+              .av-links.past
+              = link_to 'Video', 'http://video.idahoptv.org/video/2365811591/', target: '_blank', class: "btn btn-green"
             %br
             .row
               .bg-info
                 .schedule-date
-                  July 20<sup>th</sup> - Wednesday
+                  August 8th<sup>th</sup> - Monday
                 .schedule-event
-                  Civility and Faith
+                  Civility in Public Office
                 .schedule-descrip
-                  What do you do when your personal beliefs conflict with your church’s position?
-            %br
-            .row
-              .schedule-date
-                August 8th<sup>th</sup> - Monday
-              .schedule-event
-                Civility in Public Office
-              .schedule-descrip
-                Perspectives from Senator James Risch
+                  Perspectives from Senator James Risch
             %br
             .row
               .schedule-date
@@ -131,10 +131,10 @@
                 Civility and Business
               .schedule-descrip
                 Free Enterprise and Fairness
-        .container
-          .row
-            .col-lg-5.col-lg-offset-2.col-sm-6.img-margin
-              = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
+      %br
+      .col-lg-5.col-lg-offset-2.col-sm-6.img-margin
+        = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
+
 
 %a{name: 'partners'}
 .content-section-b
