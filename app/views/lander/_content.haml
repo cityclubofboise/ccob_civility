@@ -53,14 +53,43 @@
         %hr.section-heading-spacer
         .clearfix
         %p.lead
-          .container
+          Listen to or watch past events here 
+          .container.col-lg-10.col-sm-12
             .row
               .schedule-date.past
-                May 16<sup>th</sup> - Monday
+                January 28<sup>th</sup>
+              .schedule-event.past
+                Civility Over Time: An Overview
+              .av-links.past
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160128CivilitySalon.mp3',  class: "btn btn-blue"
+                = link_to 'Video', 'http://video.idahoptv.org/video/2365703716/',  class: "btn btn-green"
+            %br
+            .row
+              .schedule-date.past
+                March 8<sup>th</sup>
+              .schedule-event.past
+                Civility in Our Schools: Civility Incubators?
+              .av-links.past
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160308CivilityEd.mp3',  class: "btn btn-blue"
+                = link_to 'Video', 'http://video.idahoptv.org/video/2365704608/',  class: "btn btn-green"
+            %br
+            .row
+              .schedule-date.past
+                April 27<sup>th</sup>
+              .schedule-event.past
+                Civility on the Internet: When Social Media turns Antisocial
+              .av-links.past
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160427CivilitySocialMedia.mp3',  class: "btn btn-blue"
+                = link_to 'Audio', 'http://video.idahoptv.org/video/2365731699',  class: "btn btn-green"
+            %br
+            .row
+              .schedule-date.past
+                May 16<sup>th</sup>
               .schedule-event.past
                 Civility on the Trail
-              .schedule-descrip.past
-                The Idaho Environmental Forum<br> and Society of Outdoor Recreation Professionals
+              .av-links.past
+                = link_to 'Audio', 'http://www.cityclubofboise.org/audio/2016/20160516CivilityTrails.mp3',  class: "btn btn-blue"
+                = link_to 'Audio', 'http://video.idahoptv.org/video/2365757017/',  class: "btn btn-green"
             %br
             .row
               .bg-info
@@ -69,15 +98,15 @@
                 .schedule-event
                   Civility and Faith
                 .schedule-descrip
-                  What do you do when your personal beliefs<br> conflict with your church’s position?
+                  What do you do when your personal beliefs conflict with your church’s position?
             %br
             .row
               .schedule-date
-                August 15<sup>th</sup> - Monday
+                August 8th<sup>th</sup> - Monday
               .schedule-event
                 Civility in Public Office
               .schedule-descrip
-                Featuring one of Idaho’s own longtime politicians
+                Perspectives from Senator James Risch
             %br
             .row
               .schedule-date
@@ -102,12 +131,10 @@
                 Civility and Business
               .schedule-descrip
                 Free Enterprise and Fairness
-      .col-lg-5.col-lg-offset-2.col-sm-6
         .container
           .row
-            .col-sm-6
-              .img-margin
-                = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
+            .col-lg-5.col-lg-offset-2.col-sm-6.img-margin
+              = image_tag 'events.jpg', class: 'img-responsive', alt: 'events'
 
 %a{name: 'partners'}
 .content-section-b
