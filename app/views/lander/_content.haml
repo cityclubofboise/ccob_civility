@@ -49,11 +49,9 @@
     .row
       .col-lg-5.col-sm-6
         %h2.section-heading
-          Events
+          Events in the series include:
         %hr.section-heading-spacer
         .clearfix
-        %p.lead
-          Upcoming events listed below
           .container.col-lg-10.col-sm-12
             .row
               .schedule-date.past
@@ -105,8 +103,10 @@
               .schedule-date.past
                 August 8th<sup>th</sup> - Monday
               .schedule-event.past
-                Civility in Public Office &mdash; Perspectives from Senator James Risch
+                Civility in Public Office: Perspectives from Senator Risch
               .av-links.past
+              = link_to 'Audio',  'http://www.cityclubofboise.org/audio/2016/20160808CivilityRisch.mp3', target: '_blank', class: "btn btn-blue"
+              = link_to 'Video', 'http://video.idahoptv.org/video/2365824518/', target: '_blank', class: "btn btn-green"
 
             %br
             .row
