@@ -54,14 +54,26 @@
         .clearfix
           .container.col-lg-10.col-sm-12
           %br
+          .row
           %br
-          .row.bg-info
-            .schedule-date
-              December 9<sup>th</sup>
-            .schedule-event
-              The Ed and Dottie Stimpson Award for Civic Engagement:
-            .schedule-descrip
+            .schedule-date.past December 9<sup>th</sup>
+            .schedule-event.past
+              The Ed and Dottie Stimpson Award for Civic Engagement:<br>
               Presented to Congressman Mike Simpson and Idaho Conservation League Executive Director Rick Johnson
+            -# .av-links.past
+            -#   = link_to 'Audio', '', target: '_blank', class: "btn btn-blue"
+            -#   = link_to 'Video', '', target: '_blank', class: "btn btn-green"
+            %br
+            .p
+              This video segment from OUTDOOR IDAHO’s hour-long “Beyond the White Clouds” was the set-up piece at the Boise City Club event, honoring Congressman Mike Simpson and Idaho Conservation League executive director Rick Johnson, for their years of collaboration to designate the Boulder-White Clouds Wilderness.
+            %br
+            .p
+              In 2015 Congress unanimously agreed to give the gold standard of protection to these three areas in Idaho:  the White Clouds Wilderness, the Hemingway-Boulders Wilderness, and the Jim McClure-Jerry Peak Wilderness.
+            %br
+            .p
+              Congressman Mike Simpson and ICL director Rick Johnson had been working together for 15 years to make this happen.
+            .av-links.past
+              = link_to 'Video', 'https://youtu.be/YbfiwtV73xE', target: '_blank', class: "btn btn-green"
 
           %br
           .row
