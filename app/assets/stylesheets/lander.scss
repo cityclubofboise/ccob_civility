@@ -69,17 +69,14 @@ $clr-headline-text-shadow:  $primary-gray;
     border-color:  darken($primary-green, 1%);
   }
 }
+
+.current{
+}
+
 .network-name {
   font-size: .9em;
 }
 
-.past{
-
-}
-
-.current{
-
-}
 .schedule-event {
   text-align: left;
   font-weight: 700;
